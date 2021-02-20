@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body {
+	background-color: #ffffff; margin: 0px;
+	padding: 0px; font-size: 0.75em;
+	line-height: 1.2em; color: #6c7d53;
+}/*배경색 #898989 밖여백 0 안여백 0 글자크기 0.75em
+줄간격 1.2em 글자색 #333*/
+
+header{height: 151px;margin: 0px;padding: 20px 0 0 0}
+/*높이 151px 밖여백 0 안여백 0*/
+
+.hr1{width: 160px; float: none; margin: -105px 0 20px 720px;
+	 border: solid 1px #6c7d53; border-style: dashed;}
+
+#login_n{float: right;margin: 50px -130px 0 0;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 15px;word-spacing: 5px}
+/*정렬 오른쪽 밖여백 20 64 0 0  
+글자체 Arial,Helvetica,sans-serif 크기 12px 
+단어간격 5px*/
+#login_n a{text-decoration: none; color: #6c7d53;}
+/* 하이퍼링크 밑줄 없음 글자색 #333*/
+#login_n a:hover{color: #e79f1b}
+/* 하이퍼링크 hover 글자색 #F90*/
+/* #login span{color: #6c7d53;} */
+#login_ay{float: right;margin: 50px -150px 0 0;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 15px;word-spacing: 5px}
+#login_y{float: right;margin: 50px -150px 0 0;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 15px;word-spacing: 5px}
+/*정렬 오른쪽 밖여백 20 64 0 0  
+글자체 Arial,Helvetica,sans-serif 크기 12px 
+단어간격 5px*/
+#login_ay .slist{float: right; margin-right: 10px; color: #e79f1b;}
+#login_ay a{text-decoration: none; color: #6c7d53;}
+/* 하이퍼링크 밑줄 없음 글자색 #333*/
+#login_ay a:hover{color: #e79f1b}
+#login_y a{text-decoration: none; color: #6c7d53;}
+/* 하이퍼링크 밑줄 없음 글자색 #333*/
+#login_y a:hover{color: #e79f1b}
+/* 하이퍼링크 hover 글자색 #F90*/
+/* #login span{color: #6c7d53;} */
+
+#char_n{float: right; width: 40px; margin: 0 180px 0 0;}
+#char_y{float: right; width: 40px; margin: 0 190px 0 0;}
+
+.clear{clear: both;}/*영역구분*/
+
+#logo{float: none;width: 265px; margin: 30px 0 0 40px}
+/*정렬 왼쪽 너비 265px 밖여백 60px 0 0 40px*/
+
+/*footer부분*/
+/*글자체 seo*/
+@font-face{font-family: "seo";
+src: url("../images/segoeui.eot");
+src: local(""),
+     url("../images/segoeui.woff")format("woff"),
+     url("../images/segoeui.ttf")format("truetype");}
+footer{margin: 100px 30px 0 430px; text-align: center; 
+height: 90px;
+/* background-color: #f6f6f6; */
+background-image: url("../images/bottomlogo_nb.png");
+background-repeat: no-repeat;
+background-position: 750px center;}
+/*밖여백 50px 0 0 0 높이 80px 배경이미지under_logo.gif
+배경반복 no-repeat 위치 40px center*/
+.hr2{width: 900px;margin: 0 0 0 35px}
+/*너비 900px 밖여백 0 0 0 20px*/
+.bottom_line{border:none; margin: 0 0 0 -460px; width:134%; height:2px;
+background-color: #efefef;}
+#bottom_body{margin: 0 0 0 -460px; width:195%;
+background-color: #f7f7f7;}
+footer #copy{font-family: seo; width: 450px;
+margin: 30px 0 0 90px; float: left;}
+/*글자체 seo 너비 450px 밖여백 20px 0 0  190px 정렬 left*/
+footer #social{width: 130px; margin: 25px 0 0 50px;
+float: left;}
+/*너비 130px 밖여백 20px 20px 0 +0
+정렬 오른쪽*/
+footer #social img{margin: 0 7px}/*밖여백 0 7px*/

@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+body {
+	background-color: #898989; margin: 0x;
+	padding: 0px; font-size: 0.75em;
+	line-height: 1.2em; color: #333;}
+/*배경색 #898989 밖여백 0 안여백 0 글자크기 0.75em
+줄간격 1.2em 글자색 #333*/
+
+#wrap{
+	width: 971px; text-align: left;
+	margin: 0; margin-right: auto; margin-left: auto;
+	min-height: 780px;}
+/* 	background-image: url("../images/shadow.png"); */
+/* 	background-repeat: repeat-y;} */
+/*너비 : 971px 글자정렬 left 밖여백 0 
+밖오른쪽여백 auto 밖왼쪽여백 auto  최소높이 780px
+배경이미지 shadow.png 배경이미지반복 y*/
+
+.clear{clear: both;}
+
+/*main top_menu*/
+.main_line{border:none; margin: 0 0 20px -460px; width:195%; height:2px;
+background-color: #efefef;}
+nav#top_menu{width: 600px; margin: 0 40px 0 0; float: right;}
+/*너비 600px 밖여백 50px 20px 0 0 정렬 오른쪽*/
+nav#top_menu ul{list-style:none;
+font-family: verdana,Geneba,sans-serif;
+font-size: 18px;font-weight: 100;color: #333}
+/*스타일없음 글자체 verdana,Geneba,sans-serif 
+글자크기 13px 글자굵기 100 글자색 #333*/
+nav#top_menu li{float: left;margin: 0 5px; padding: 0 5px;}
+/*정렬 왼쪽 밖여백 0 5px*/
+nav#top_menu a{display: block; height: 20px;
+border-radius:5px ; padding: 15px;
+text-decoration: none; font-weight: bold; color: #d6ccab;}
+/*block 높이 20px 안여백 10px 밑줄 없음 글자색 #333*/
+nav#top_menu a:hover{
+	background-color: #ebe2d1; transition: 0.1s;
+	color: #765334;}
+
+/*main 이외의 top_menu*/
+nav#top_menu_s{width: 600px; margin: 0 40px 0 0; float: right;}
+/*너비 600px 밖여백 50px 20px 0 0 정렬 오른쪽*/
+nav#top_menu_s ul{list-style:none;
+font-family: verdana,Geneba,sans-serif;
+font-size: 18px;font-weight: 100;color: #333}
+/*스타일없음 글자체 verdana,Geneba,sans-serif 
+글자크기 13px 글자굵기 100 글자색 #333*/
+nav#top_menu_s li{float: left;margin: 0 5px; padding: 0 5px;}
+/*정렬 왼쪽 밖여백 0 5px*/
+nav#top_menu_s a{display: block; height: 20px;
+border-radius:5px ; padding: 15px;
+text-decoration: none; font-weight: bold; color: #d6ccab}
+/*block 높이 20px 안여백 10px 밑줄 없음 글자색 #333*/
+nav#top_menu_s .sel{
+	background-color: #ebe2d1;
+	color: #765334;}
+/*배경이미지 blue.gif 배경반복 x 배경위치 아래*/
+nav#top_menu_s a:hover{color: #ccab8c; transition: 0.1s;}
+
+#main_img{width: 971px; height: 308px;
+background-image:url("../images/img_back.png");
+background-repeat: no-repeat;
+background-position: center top;}
+/*너비 971px 높이 308px 
+배경이미지 img_back.png 반복 no 위치 가운데 위*/
+#main_img img{margin: 9px 0 0 0}/*밖여백 9px 0 0 0*/
+
+article#front{margin: 110px 0px 5px 0px}
+/*밖여백 5px 0 5px 0*/
+#solution{border: solid 1px #ebe2d1;
+border-radius:15px ; width: 880px; min-height: 500px;
+background-color: #ebe2d1; padding: 10px; padding-top: 40px;
+margin: -5px 0 20px 35px;}
+/*테두리 solid 1px #FFFFFF 둥글게 10px 너비 910px
+최소높이 150px 배경색 #ebebeb 안여백 10px 
+밖여백 0 0 0 20px */
+
+/* main 이미지 */
+#m_div{float: left; padding: 50px 150px 50px 120px; margin-left: 45px;}
+#m_div>h1{text-align: center;}
+#m_div>h2{text-align: center; margin-bottom: 30px; color: #9aaa88;}
+#m_div>img{width: 500px; margin-left: 20px; margin-bottom: 10px; border: 3px solid #c6aa93;}
+.m_hr{border:none; height:3px; background-color: #efefef;}
+
+nav#top_menu{width: 600px; margin: 0 40px 0 0; float: right;}
+#location img{margin: 0 0 30px 85px;}
+#event img{margin: 0 0 30px 82px;}
+#inquiry img{margin: 0 0 30px 67px;}
+#location,#event,#inquiry{width:25%; float: left; padding: 20px; margin: 30px 0 0 17px;}
+/*너비 30% 정렬 왼쪽 안여백 10px*/
+@font-face{font-family: "seo";
+src: url("../images/segoeui.eot");
+src: local(""),
+     url("../images/segoeui.woff")format("woff"),
+     url("../images/segoeui.ttf")format("truetype");}
+#location h3,#event h3,#inquiry h3{font-family: seo;
+font-size: 18px;font-weight: 600; color: #a07654; margin: 0 0 20px 80px;}     
+     /*#hosting h3태그,.. 글자체 seo 글자크기 14px
+     글자굵기 600 글자색 #333 밖여백 0 0 10px 80px */
+     /*hosting p태그, ... 글자체 seo 글자크기 12px
+     글자색 #333 밖여백 0 0 0px 80px */
+#location h2{font-family: seo; padding:3px; text-align: center;
+font-size: 13px;font-weight: 400; color: #a07654; margin: 0 0 0 50px;}
+#event h2{font-family: seo; padding:3px; text-align: center;
+font-size: 13px;font-weight: 400; color: #a07654; margin: 0 0 0 35px;}   
+#inquiry h2{font-family: seo; padding:3px; text-align: center;
+font-size: 13px;font-weight: 400; color: #a07654; margin: 0 0 0 20px;}
+   
+#sec_news,#news_notice{float: left; width: 420px;
+margin: 15px 0 0 20px}
+/*정렬 왼쪽 너비 420px 밖여백 15px 0 0 20px */
+#sec_news h3,#news_notice h3{font-family: seo;
+font-size: 14px;font-style: italic;font-weight: normal;
+width: 420px;height: 24px;
+background-image: url("../images/h3_back.jpg");
+background-repeat: no-repeat;padding: 5px 0 0 22px;}
+/*글자체 seo 크기 14px
+스타일 italic 굵기 normal 너비 420px 높이 24px
+배경이미지h3_back.jpg 반복no-repeat 안여백 5px 0 0 22px*/
+#sec_news .orange{color: #f26522}/*글자색 #f26522*/
+#news_notice .brown{color: #827b00}/*글자색 #827b00*/
+#sec_news dl{margin-left: 6px;}/*밖왼쪽여백 6px*/
+#sec_news dt{font-family: "Times New roman"; padding-top: 10px;
+font-size: 14px; margin: 5px 5px; color: #F00}
+/*글자체 Times New roman 글자크기 16px
+ 밖여백 5px 0 글자색 #F00*/
+#sec_news dd{margin-left: 10px; color: #333; padding-bottom: 5px;}
+/*밖왼쪽 여백 0 글자색 #333*/
+#news_notice table{width: 400px;
+border-collapse: collapse; text-align: center;}
+/*너비 400px 여백없애기 글자정렬 가운데*/
+#news_notice td{padding: 6px 4px;
+border-bottom-width: 1px; border-bottom-style: dotted;
+border-bottom-color: #999}
+/*안여백 6px 4px 
+테두리아래너비 1px 테두리아래스타일 dotted
+테두리아래색 #999 */
+#news_notice td.contxt{
+	background-image: url("../images/tr_back.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px; text-align: left;color: #333}
+/*배경이미지 tr_back.gif
+반복 no repeat 위치 left center 안왼쪽여백 15px
+글자정렬 왼쪽 글자색 #333*/
+#news_notice a{color: #333;text-decoration: none;}
+/*글자색 #333 밑줄 없음*/
+#news_notice a:hover{color: #e79f1b;
+text-decoration: none;}/*글자색 #F90 밑줄 none*/
+
+#solution_w{border: solid 1px #ebe2d1;
+border-radius:15px; width: 880px; height: 430px;
+background-color: #ebe2d1; padding: 10px;
+margin: -5px 0 0 35px;}
+
+#solution_s{border: solid 1px #ebe2d1;
+border-radius:15px; width: 880px; height: 850px;
+background-color: #ebe2d1; padding: 10px;
+margin: -5px 0 0 35px;}
+
+#solution_l{border: solid 1px #ebe2d1;
+border-radius:15px; width: 880px; height: 650px;
+background-color: #ebe2d1; padding: 10px;
+margin: -5px 0 0 35px;}
+
+
+article #mid{margin: -90px 0 0 250px; padding-top: 20px}
+article h1{font-family: "Times New Roman";
+font-size: 35px; color: #a07654; margin: 0 0 50px 0;
+font-weight:  600;
+}/*글자체 Times New Roman 글자크기 45px
+글자색 #CCC 밖여백20px 0  글자굵기 normal*/
+article p{color: #c4a78e; font-family:monospace; font-size: 18px; padding-left: 10px; padding-top: 50px;}
+/*안왼쪽여백 10px*/
+article p.ceo_p{color: #8e684d; font-size: 17px; padding: 20px 0 0 10px;}
+figure.ceo{float: right; margin: -20px 50px 20px 0;}
+/*정렬 오른쪽 밖여백 5px*/
+figcaption{text-align: center; font-size: 15px; color:#e79f1b;
+           margin-left:10px; padding-bottom: 10px;}
+/*글자정렬 가운데 글자색 #39F*/
+figure.menu{float: left; margin: 20px 0 20px 15px;}
+/*정렬 오른쪽 밖여백 5px*/
+
+article #sns{margin: 60px 0 0 40px;}
+article #sns h1{font-family: "Times New Roman";
+font-size: 35px; color: #a07654; margin: 30px 0 40px 0;
+font-weight:  600;}
+article #sns img{padding: 20px; margin: 20px 0 0 140px;}
+article #sns img:hover{background-color: #f2f2f2; border-radius: 100px;
+transition: 0.5s;}
+
+
+/* 서브메뉴 */
+#sub_menu{width: px;200 float: left;margin: 40px 0 0 -20px;
+font-family:Verdana,Geneva,sans-serif;font-size:1em  }
+/*너비 238px 정렬 왼쪽 밖여백20px
+글자체 Verdana,Geneva,sans-serif 글자크기 1em*/
+#sub_menu ul{margin: 20px 0 0 0; list-style: none;
+}/*밖여백 20 0 0 10 리스트스타일none*/
+#sub_menu a{text-decoration: none;color: #765334;
+display:block;height: 15px;width: 150px;padding: 7px;
+border-bottom-width: 1px;border-bottom-style: dotted;
+border-bottom-color: #999;
+background-image: url("../images/bullet.gif");
+background-repeat: no-repeat;
+background-position: right center;}
+/*밑줄 none 글자색 #666
+높이 15px 너비150px 안여백7px
+테두리 아래너비 1px 테두리아래스타일 dotted 
+테두리아래색 #999 배경이미지 images/bullet.gif
+반복no 위치right center*/
+#sub_menu a:hover{color: #e79f1b;
+background-image: url("../images/bullet_orange.gif");
+background-repeat: no-repeat;
+background-position: right center;}/*배경이미지 bullet_orange.gif
+반복 no 위치right center 글자색 color#F90 */

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+	background-color: #898989; margin: 0px;
+	padding: 0px; font-size: 0.75em;
+	line-height: 1.2em; color: #333;
+}/*배경색 #898989 밖여백 0 안여백 0 글자크기 0.75em
+줄간격 1.2em 글자색 #333*/
+
+#wrap{
+	width: 971px; text-align: left;
+	margin: 0; margin-right: auto; margin-left: auto;
+	min-height: 780px;}
+/*너비 : 971px 글자정렬 left 밖여백 0 
+밖오른쪽여백 auto 밖왼쪽여백 auto  최소높이 780px
+배경이미지 shadow.png 배경이미지반복 y*/
+
+.clear{clear: both;}/*영역구분*/
+
+nav#top_menu{width: 500px; margin: 0 20px 0 0; float: right;}
+/*너비 600px 밖여백 50px 20px 0 0 정렬 오른쪽*/
+nav#top_menu ul{list-style:none;
+font-family: verdana,Geneba,sans-serif;
+font-size: 18px;font-weight: 100;color: #333}
+/*스타일없음 글자체 verdana,Geneba,sans-serif 
+글자크기 13px 글자굵기 100 글자색 #333*/
+nav#top_menu li{float: left;margin: 0 5px; padding: 0 5px;}
+/*정렬 왼쪽 밖여백 0 5px*/
+nav#top_menu a{display: block; height: 20px;
+border-radius:5px ; padding: 15px;
+text-decoration: none; font-weight: bold; color: #7e8d65}
+/*block 높이 20px 안여백 10px 밑줄 없음 글자색 #333*/
+nav#top_menu a:hover{
+	background-color: #7e8d65;
+	color: #faf5ef;}
+/*배경이미지 blue.gif 배경반복 x 배경위치 아래*/
+#solution{border: solid 1px #7e8d65;
+border-radius:15px ; width: 880px; min-height: 200px;
+background-color: #7e8d65; padding: 10px;
+margin: -5px 0 20px 35px;}
+/*테두리 solid 1px #FFFFFF 둥글게 10px 너비 910px
+최소높이 150px 배경색 #ebebeb 안여백 10px 
+밖여백 0 0 0 20px */
+
+
+article{float: right;width: 660px;
+padding-right: 30px;
+font-family: Verdana,Geneva,sans-serif;
+font-size: 1em;line-height: 1.5em}
+/*정렬 오른쪽 너비 660px 안오른쪽여백 30px
+글자체Verdana,Geneva,sans-serif 글자크기1em 
+줄간격1.5em */
+article h1{font-family: "Times New Roman";
+font-size: 45px; color: #CCC; margin: 20px 0;
+font-weight: normal;
+}/*글자체 Times New Roman 글자크기 45px
+글자색 #CCC 밖여백20px 0  글자굵기 normal*/
+article p{font-size: 18px; padding-left: 20px; padding-top: 30px;}
+/*안왼쪽여백 10px*/
+figure.ceo{float: right; margin: 0 50px 20px 0;}
+/*정렬 오른쪽 밖여백 5px*/
+figcaption{text-align: center; font-size: 15px; color:#6c7d53;
+           padding-top: 15px; padding-bottom: 10px;}
+/*글자정렬 가운데 글자색 #39F*/
+
+
+/* 서브메뉴 */
+#sub_img{width: 971px;height: 179px;
+/* background-image: url("../images/company/sub_back.png"); */
+background-repeat: no-repeat;
+background-position: left top;}
+/*너비 971px 높이179px 
+배경이미지 images/company/sub_back.png
+반복 no 위치 left top*/
+#sub_menu{width: 238px; float: left;margin: 20px;
+font-family:Verdana,Geneva,sans-serif;font-size:1em  }
+/*너비 238px 정렬 왼쪽 밖여백20px
+글자체 Verdana,Geneva,sans-serif 글자크기 1em*/
+#sub_menu ul{margin: 20px 0 0 10px; list-style: none;
+}/*밖여백 20 0 0 10 리스트스타일none*/
+#sub_menu a{text-decoration: none;color: #666;
+display:block;height: 15px;width: 150px;padding: 7px;
+border-bottom-width: 1px;border-bottom-style: dotted;
+border-bottom-color: #999;
+background-image: url("../images/bullet.gif");
+background-repeat: no-repeat;
+background-position: right center;}
+/*밑줄 none 글자색 #666
+높이 15px 너비150px 안여백7px
+테두리 아래너비 1px 테두리아래스타일 dotted 
+테두리아래색 #999 배경이미지 images/bullet.gif
+반복no 위치right center*/
+#sub_menu a:hover{color: #F90;
+background-image: url("../images/bullet_orange.gif");
+background-repeat: no-repeat;
+background-position: right center;}/*배경이미지 bullet_orange.gif
+반복 no 위치right center 글자색 color#F90 */
