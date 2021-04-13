@@ -6,4 +6,5 @@ my_project
 
 2. 팀프로젝트(MVC)
 - MVC 영화관 홈페이지 제작
-- 영화 예매 페이지 & 관리자(상영 영화 등록/수정/삭제) 페이지 구현
+- 영화 예매 페이지 & 관리자(영화관, 상영 영화 등록/삭제) 페이지 구현
+  -> WebContent > reservation > cinemaAddForm, movieAddForm, reserveMain
